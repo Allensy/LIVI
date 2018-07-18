@@ -1,0 +1,19 @@
+{
+  "name": "livi",
+  "version": "1.0.0",
+  "description": "Fully automated AI to enjoy the small things in life",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allensy/LIVI.git"
+  },
+  "author": "Allen Aaron Jacobson && Yuval Lavie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Allensy/LIVI/issues"
+  },
+  "homepage": "https://github.com/Allensy/LIVI#readme"
+}

@@ -32,11 +32,15 @@ bool Brain::AddModule(Module * module) {
 	return true;
 }
 
+// These functions use "Algorithm" library, they recieve two Iterators (Begin,End) and a Lambda function [you can also use an Object Function] to 
+// start a certain operation on all elements of the Brain's Vector.
+// Example - this calls the "Start()" function of all modules we will ever have
 void Brain::StartAllModules() {
 	std::for_each(this->Modules.begin(), this->Modules.end(),
 		[](Module * mod) { mod->Start(); });
 }
 
+// This calls the "Stop()" function of all modules we will ever have
 void Brain::StopAllModules()
 {
 	std::for_each(this->Modules.begin(), this->Modules.end(),

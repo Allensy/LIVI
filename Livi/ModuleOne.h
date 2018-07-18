@@ -1,3 +1,7 @@
+/*
+Temporary "Derived Module" example
+*/
+
 #pragma once
 #include "Module.h"
 class ModuleOne :

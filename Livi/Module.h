@@ -1,3 +1,14 @@
+/*
+This is an Interface class, It can not be instantiated alone, only by calling a derived class.
+Module requires all derived classes to implement and override the functions:
+- Start()
+- Stop()
+We will eventually add more functions that must be in every module that "Brain" uses.
+
+Every module has a Name, and and Identification Number (add more variables later)
+*/
+
+
 #pragma once
 #include <string>
 class Module {

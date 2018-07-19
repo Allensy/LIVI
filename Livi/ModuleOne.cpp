@@ -13,7 +13,7 @@ ModuleOne::~ModuleOne()
 
 bool ModuleOne::Start()
 {
-	std::cout << "ModuleOne Started" << std::endl;
+	//std::cout << "ModuleOne Started" << std::endl;
 	return true;
 }
 
